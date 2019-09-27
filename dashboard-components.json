@@ -6932,6 +6932,552 @@
       "type": "CHART",
       "subType": "TREND_CHART",
       "priority": 8
+    },
+    {
+      "id": "prometheus_mysql_commands_total_trending",
+      "definition": {
+        "widgetId": "prometheus_mysql_commands_total_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "MySQL Statements Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MYSQL_COMMANDS_TOTAL_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mysql_global_status_trending",
+      "definition": {
+        "widgetId": "prometheus_mysql_global_status_trending",
+        "id": "adaptive_line_chart_kbps",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Network Traffic Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MYSQL_GLOBAL_STATUS_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mysql_global_status_slow_trending",
+      "definition": {
+        "widgetId": "prometheus_mysql_global_status_slow_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "MySQL Slow Queries Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MYSQL_GLOBAL_STATUS_SLOW_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mysql_innodb_trending",
+      "definition": {
+        "widgetId": "prometheus_mysql_innodb_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "MySQL Innodb Row Locks Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MYSQL_INNODB_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mysql_innodb_buffer_pool_trending",
+      "definition": {
+        "widgetId": "prometheus_mysql_innodb_buffer_pool_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "MySQL Innodb Buffer Pool Operations Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MYSQL_INNODB_BUFFER_POOL_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mysql_innodb_data_trending",
+      "definition": {
+        "widgetId": "prometheus_mysql_innodb_data_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "MySQL Innodb Operations Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MYSQL_INNODB_DATA_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mysql_global_status_buffer_pool_data_trending",
+      "definition": {
+        "widgetId": "prometheus_mysql_global_status_buffer_pool_data_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "MySQL Innodb Global Satus Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MYSQL_GLOBAL_STATUS_BUFFER_POOL_DATA_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mysql_buffer_pool_data_trending",
+      "definition": {
+        "widgetId": "prometheus_mysql_buffer_pool_data_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "MySQL Innodb Buffer Pool Requests Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MYSQL_BUFFER_POOL_DATA_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_bufman_page_lookups_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_bufman_page_lookups_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Page Lookups Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_BUFMAN_PAGE_LOOKUPS_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_bufman_page_reads_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_bufman_page_reads_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Page Reads Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_BUFMAN_PAGE_READS_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_bufman_page_writes_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_bufman_page_writes_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Page Writes Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_BUFMAN_PAGE_WRITES_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_bufman_page_splits_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_bufman_page_splits_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Page Splits Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_BUFMAN_PAGE_SPLITS_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_lock_memory_bytes_total_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_lock_memory_bytes_total_trending",
+        "id": "adaptive_line_chart_mbps",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Lock Memory Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_LOCK_MEMORY_BYTES_TOTAL_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_optimizer_memory_bytes_total_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_optimizer_memory_bytes_total_trending",
+        "id": "adaptive_line_chart_mbps",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Optimizer Memory Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_OPTIMIZER_MEMORY_BYTES_TOTAL_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_cache_hit_ratio_total_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_cache_hit_ratio_total_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Buffer Cache Hit Ratio Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_CACHE_HIT_RATIO_TOTAL_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_lock_waits_total_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_lock_waits_total_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Lock Waits Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_LOCK_WAITS_TOTAL_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_bufman_page_life_expectancy_total_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_bufman_page_life_expectancy_total_trending",
+        "id": "adaptive_line_chart_seconds",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Page Life Expectency Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_BUFMAN_PAGE_LIFE_EXPECTANCY_TOTAL_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_user_connections_total_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_user_connections_total_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql User Connections Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_USER_CONNECTIONS_TOTAL_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_memory_usage_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_memory_usage_trending",
+        "id": "trending_chart",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Memory Usage Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_MEMORY_USAGE_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_cache_pages_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_cache_pages_trending",
+        "id": "adaptive_line_chart_mbps",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Cache Pages Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_CACHE_PAGES_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_cache_memory_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_cache_memory_trending",
+        "id": "adaptive_line_chart_mbps",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Cache Memory Per Instance Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_CACHE_MEMORY_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_databases_active_transactions_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_databases_active_transactions_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Active Transactions Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_DATABASES_ACTIVE_TRANSACTIONS_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_databases_log_used_percent_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_databases_log_used_percent_trending",
+        "id": "trending_chart",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Log Used Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_DATABASES_LOG_USED_PERCENT_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_databases_xtp_memory_used_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_databases_xtp_memory_used_trending",
+        "id": "adaptive_line_chart_mbps",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Xtp Memory Used Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_DATABASES_XTP_MEMORY_USED_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_databases_data_files_size_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_databases_data_files_size_trending",
+        "id": "adaptive_line_chart_mbps",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Data Files Size Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_DATABASES_DATA_FILES_SIZE_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_mssql_databases_log_files_size_used_trending",
+      "definition": {
+        "widgetId": "prometheus_mssql_databases_log_files_size_used_trending",
+        "id": "adaptive_line_chart_mbps",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "Mssql Log File Size Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_MSSQL_DATABASES_LOG_FILES_SIZE_USED_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
     }
   ],
   "componentOrder": [
