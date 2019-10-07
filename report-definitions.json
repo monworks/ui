@@ -7073,6 +7073,295 @@
       "sql": {
         "dialect": "influx"
       }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_DELETE_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_FETCHED_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_INSERTED_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_RETURNED_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_UPDATED_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_LOCKS_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_DEADLOCKS_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_COMMIT_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_ROLLBACK_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_NUMBACKENDS_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_BLKS_HIT_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_BLKS_READ_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_CHECKPOINTS_REQUESTS_TOTAL_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_CHECKPOINTS_TIMED_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_BUFFERS_CHECKPOINTS_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_BUFFERS_CLEAN_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
+    },
+    {
+      "name": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_BUFFERS_BACKEND_TRENDING",
+      "context-type": "com.cfx.monsanto.device.inventory",
+      "impl-class": "com.cfx.indigo.portal.reports.InterfaceQOSUsageTrendReport",
+      "report-generator-type": "com.cfx.report.generator.type.linechart",
+      "contextInfo": {
+        "params": [
+          {
+            "id": "skip.label.mapping",
+            "value": "true"
+          }
+        ]
+      },
+      "sql": {
+        "dialect": "influx"
+      }
     }
   ]
 }

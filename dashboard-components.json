@@ -7478,6 +7478,363 @@
       "type": "CHART",
       "subType": "TREND_CHART",
       "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_delete_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_delete_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Rows Deleted Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_DELETE_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_fetched_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_fetched_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Rows Fetched Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_FETCHED_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_inserted_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_inserted_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Rows Inserted Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_INSERTED_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_returned_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_returned_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Rows Returned Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_RETURNED_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_updated_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_updated_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Rows Updated Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_UPDATED_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_locks_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_locks_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Locks Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_LOCKS_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_DeadLocks_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_DeadLocks_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL DeadLocks Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_DEADLOCKS_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_commit_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_commit_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Commit Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_COMMIT_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_rollback_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_rollback_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Rollback Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_ROLLBACK_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_numbackends_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_numbackends_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Active Connections Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_NUMBACKENDS_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_blks_hit_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_blks_hit_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Block Hits Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_BLKS_HIT_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_metrics_blks_read_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_metrics_blks_read_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Block Reads Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_METRICS_BLKS_READ_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_checkpoints_requests_total_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_checkpoints_requests_total_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Checkpoints Requests Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_CHECKPOINTS_REQUESTS_TOTAL_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_checkpoints_timed_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_checkpoints_timed_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Checkpoints Timed Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_CHECKPOINTS_TIMED_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_buffers_checkpoints_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_buffers_checkpoints_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Buffers Checkpoints Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_BUFFERS_CHECKPOINTS_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_buffers_clean_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_buffers_clean_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Buffers Clean Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_BUFFERS_CLEAN_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
+    },
+    {
+      "id": "prometheus_postgresql_database_buffers_backend_trending",
+      "definition": {
+        "widgetId": "prometheus_postgresql_database_buffers_backend_trending",
+        "id": "adaptive_line_chart_count",
+        "widgetType": "TIMESERIES_LINE_CHART",
+        "name": "PostgreSQL Buffers Backend Trending",
+        "type": "CHART",
+        "contexts": {
+          "reportId": "com.cfx.device.qos.trend.QOS_PROMETHEUS_POSTGRESQL_DATABASE_BUFFERS_BACKEND_TRENDING"
+        }
+      },
+      "criteria": {
+        "isProfileBasedComponent": true
+      },
+      "rowSpan": 4,
+      "heightType": "TYPE_3",
+      "type": "CHART",
+      "subType": "TREND_CHART",
+      "priority": 8
     }
   ],
   "componentOrder": [
